@@ -18,8 +18,6 @@ def soln_id(user_name,password):
             k=re.sub('[^A-Z0-9_]', '', k)
             if k!="":
                 solved.append(k)
-        if (len(solved))>1:
-            break
     #print(solved)
     soln_ids=[]
     for id in solved:
